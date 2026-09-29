@@ -1,0 +1,614 @@
+Unity Editor version:    6000.6.3f1 (45d8eee7de74)
+Branch:                  6000.6/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 27.0 (Build 26A428)
+Darwin version:          27.0.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Date:                    2026-09-25T11:48:49Z
+VBCSCompilerPreWarmer: watching VBCSCompiler (PID 68026)
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 68028)
+VBCSCompiler prewarm took 4.81 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gaosheng" at "2026-09-25T11:48:49.695505Z"
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/PackageManager/Server/UnityPackageManager
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/MacOS/Unity
+-batchmode
+-nographics
+-projectPath
+/Users/gaosheng/Documents/AiStudio/BridgeHold
+-executeMethod
+BridgeHold.Editor.BridgeHoldSmoke.Run
+-logFile
+/tmp/bridgehold-smoke-final.log
+Successfully changed project path to: /Users/gaosheng/Documents/AiStudio/BridgeHold
+/Users/gaosheng/Documents/AiStudio/BridgeHold
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [8258862976]  Target information:
+
+Player connection [8258862976]  * "[IP] 192.0.0.2 [Port] 55504 [Flags] 2 [Guid] 883265498 [EditorId] 883265498 [Version] 1048832 [Id] OSXEditor(0,gaoshengdeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8258862976] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8258862976] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              2428f66d7d9e4be687f7af0bf6f64165
+  Correlation Id:          fc775b22e1fdca939c73f7def93d3870
+  External correlation Id: 5706915113938722265
+  Machine Id:              SHBIttOXgcMBTTw2v3eEdnq+fms=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-gaosheng" (connect: 0.00s, validation: 0.00s, handshake: 0.56s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-gaosheng-notifications" at "2026-09-25T11:48:50.265048Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 15668781843709-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.58s
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: a684e00fcb524a6a23c6d4ddee4fd1fc
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052672
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+[Package Manager] Connected to IPC stream "Upm-68024" after 0.6 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/Unity.DataStore 
+Unity Data Store artifact dir = Library/DataStore, working dir = /Users/gaosheng/Documents/AiStudio/BridgeHoldUnity Data Store running and initialised
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.3f1 (45d8eee7de74)
+[EntityIdStore] init: VM path (explicit commit), pageSize=16384, blockCount=262144, entitiesPerBlock=1024, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gaosheng/Documents/AiStudio/BridgeHold/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.6.3f1/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001059 seconds.
+Native extension for OSXStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.959 seconds
+Domain Reload Profiling: 1464ms
+	BeginReloadAssembly (168ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (142ms)
+		TypeCache.Refresh (196ms)
+			TypeCache.ScanAssembly (178ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (960ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (645ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 3 packages:
+  Built-in packages:
+    com.unity.modules.audio@1.0.0 (location: /Users/gaosheng/Documents/AiStudio/BridgeHold/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.imgui@1.0.0 (location: /Users/gaosheng/Documents/AiStudio/BridgeHold/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.physics@1.0.0 (location: /Users/gaosheng/Documents/AiStudio/BridgeHold/Library/PackageCache/com.unity.modules.physics)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.00 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Resources/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/200b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /Users/gaosheng/Documents/AiStudio/BridgeHold
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s786ms
+[171/180    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[172/180    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/BridgeHold/Scripts/BridgeHoldGame.cs(137,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets/BridgeHold/Scripts/BridgeHoldGame.cs(137,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+[173/180    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp.dll, with 142 defines and 252 references
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+[174/180    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[175/180    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[176/180    0s] Csc Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets/BridgeHold/Editor/BridgeHoldSmoke.cs(34,26): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[177/180    0s] ILPostProcess Library/Bee/artifacts/200b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/200b0aE.dag/Assembly-CSharp-Editor.dll, with 140 defines and 296 references
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+1 processor(s) skipped this assembly
+[178/180    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[179/180    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.76 seconds), 9 items updated, 180 evaluated
+Total cache size 0
+Assets/BridgeHold/Scripts/BridgeHoldGame.cs(137,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets/BridgeHold/Scripts/BridgeHoldGame.cs(137,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets/BridgeHold/Scripts/BridgeHoldGame.cs(137,37): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets/BridgeHold/Editor/BridgeHoldSmoke.cs(34,26): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Total cache size after purge 0, took 00:00:00.0125787
+AssetDatabase: script compilation time: 1.644683s
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 558ms
+	BeginReloadAssembly (144ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (75ms)
+		LoadAssemblies (55ms)
+		TypeCache.Refresh (7ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (295ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (44ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Starting new worker id: 0 with log in /Users/gaosheng/Documents/AiStudio/BridgeHold/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=fb0a9d58fc1e34931b8e4c66f6743472): Total: 2.373 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=373 ms
+		Asset DB Callback time: managed=65 ms, native=8 ms
+		Scripting: domain reloads=1, domain reload time=278 ms, compile time=1647 ms, other=0 ms
+		Project Asset Count: scripts=33, non-scripts=7
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 6.159ms
+	ApplyChangesToAssetFolders: 0.056ms
+	Scan: 39.215ms
+	Collect global state as custom dependencies: 5.735ms
+	OnSourceAssetsModified: 0.622ms
+	ProcessAssetsWithTransientArtifactChanges: 1.275ms
+	CategorizeAssets: 0.204ms
+	CompileScripts: 1646.637ms
+	ImportOutOfDateAssets: 298.796ms (295.594ms without children)
+		UnloadImportedAssets: 0.177ms
+		ImportSchedulerStart: 3.014ms
+	PostProcessAllAssets: 67.129ms
+		VCAutoAddAssetPostprocess 1.654ms
+		PostProcessCallbackCreateDeferredMaterials 0.210ms
+		MonoPostProcessAllAssets: 64.764ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 16.155ms
+			AssetPostprocessor.OnPostprocessAllAssets 15.147ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 10.459ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.858ms
+			AssetChangedListener.OnPostprocessAllAssets 1.335ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.970ms
+			SyncVS.PostprocessSyncProject 0.925ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.690ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.627ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.594ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.388ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.305ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.245ms
+			AssetEvents.OnPostprocessAllAssets 0.225ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.166ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.108ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.100ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.098ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.097ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.081ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.081ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.075ms
+	PostAssetChangesProfiler: 0.663ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.148ms
+	UnloadStreamsBegin: 1.036ms
+	Untracked: 303.091ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 0.047ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-BridgeHold
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (353.9 KB). Loaded Objects now: 751.
+Memory consumption went from 133.3 MB to 132.9 MB.
+Total: 4.923875 ms (FindLiveObjects: 0.082792 ms CreateObjectMapping: 0.003875 ms MarkObjects: 4.559666 ms  DeleteObjects: 0.213042 ms)
+
+Opening scene 'Assets/BridgeHold/Scenes/Bridge.unity'
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/BridgeHold/Scenes/Bridge.unity'
+	Deserialize:            2.935 ms
+	Integration:            12.741 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   15.704 ms
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 756.
+Memory consumption went from 133.5 MB to 133.5 MB.
+Total: 7.223209 ms (FindLiveObjects: 0.107542 ms CreateObjectMapping: 0.007708 ms MarkObjects: 7.033000 ms  DeleteObjects: 0.013791 ms)
+
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '2c7fb3880ca90653f0892afe48c06c6c') in 0.005 seconds [static dependencies only]. Details - ImportResultOutputID=054c890a8f4b6dddbea933bc5e4b7df4 DependenciesID=85efa408d48e9e54d5e4367e5d40214c StaticDependenciesID=592b97d2ccdb572e42ca6a3cf5d401ff 
+Asset Pipeline Refresh (id=02f42c4e602a942619fd3efed5a21e45): Total: 0.013 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+BRIDGEHOLD_SETUP_OK
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSetup:CreateScene () (at Assets/BridgeHold/Editor/BridgeHoldSetup.cs:37)
+BridgeHold.Editor.BridgeHoldSmoke:Run () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:17)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSetup.cs Line: 37)
+
+[Project] Loading completed in 5.582 seconds
+	Project init time: 				5.246 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.602 seconds
+		Asset Database init time: 		0.252 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.521 seconds
+		Unity extensions init time: 	0.000 seconds
+		Asset Database refresh time: 	2.373 seconds
+	Scene opening time: 			0.148 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790336935239,"processId":68024,"projectLoad":5.581623792,"projectInit":5.245753167,"templateInit":0.0,"packageManagerInit":0.602373458,"assetDatabaseInit":0.252169125,"globalIlluminationInit":0.001650542,"assembliesLoad":1.520773958,"unityExtensionsInit":0.000338708,"assetDatabaseRefresh":2.373333917,"sceneOpening":0.148222417}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790336935239,"processId":68024,"editorVersion":"6000.6.3f1 (45d8eee7de74)","branch":"6000.6/staging","buildType":"Release","platform":"OSX"}
+Thread 0x16dfcf000 may have been prematurely finalized
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.523 seconds
+Domain Reload Profiling: 1454ms
+	BeginReloadAssembly (653ms)
+		DisableScriptedObjects (35ms)
+		CreateAndSetChildDomain (429ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (155ms)
+		TypeCache.Refresh (9ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (525ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (125ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+
+Asset Pipeline Refresh (id=8714886358ae34f2da82196e3b3c1f66): Total: 1.564 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=558 ms
+		Asset DB Callback time: managed=48 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=953 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=33, non-scripts=7
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.794ms
+	Collect global state as custom dependencies: 1.167ms
+	ProcessAssetsWithTransientArtifactChanges: 1.415ms
+	CategorizeAssets: 0.381ms
+	CompileScripts: 3.137ms
+	ImportOutOfDateAssets: 525.606ms (525.038ms without children)
+		UnloadImportedAssets: 0.235ms
+		ImportSchedulerStart: 0.314ms
+	PostProcessAllAssets: 48.483ms
+		MonoPostProcessAllAssets: 48.188ms
+			AssetPostprocessor.OnPostprocessAllAssets 15.885ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.569ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 5.922ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.011ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.492ms
+			AssetChangedListener.OnPostprocessAllAssets 1.157ms
+			SyncVS.PostprocessSyncProject 0.953ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.709ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.487ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.343ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.215ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.192ms
+			AssetEvents.OnPostprocessAllAssets 0.180ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.180ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.180ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.134ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.112ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.102ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.101ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.078ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.072ms
+	PostAssetChangesProfiler: 0.258ms
+	Untracked: 978.745ms
+
+Launching external process: /Applications/Unity/Hub/Editor/6000.6.3f1/Unity.app/Contents/Helpers/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.35 seconds
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.946 ms
+	Integration:            595.007 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   595.962 ms
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Start Indexing on Editor startup
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00009] in <0e19fd8bd8e94908bba2ee4f803bc6a7>:0 
+  at UnityEditor.Search.SearchDatabase+<EnumerateAll>d__78.MoveNext () [0x00089] in /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchDatabase.cs:351 
+  at System.Linq.Enumerable.TryGetFirst[TSource] (System.Collections.Generic.IEnumerable`1[T] source, System.Boolean& found) [0x00045] in <1b6d7e99e5414d05b29c34e3609a3284>:0 
+  at System.Linq.Enumerable.First[TSource] (System.Collections.Generic.IEnumerable`1[T] source) [0x00000] in <1b6d7e99e5414d05b29c34e3609a3284>:0 
+  at UnityEditor.Search.SearchDatabase.GetDefaultSearchDatabase () [0x00000] in /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchDatabase.cs:325 
+  at UnityEditor.Search.SearchInit.IndexationOnStartup () [0x0000a] in /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/SearchInit.cs:109 
+  at UnityEditor.EditorApplication.Internal_CallDelayFunctions () [0x00029] in /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:427 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&) (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:50)
+
+(Filename: /Users/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchDatabase.cs Line: 351)
+
+Created GICache directory at /Users/gaosheng/Library/Caches/com.unity3d.UnityEditor/GiCache. Took: 0.015s, timestamps: [7.793 - 7.808]
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW0 0
+SMOKE PASS: scene starts a game
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:34)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: 300 reusable enemy slots
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:36)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: restart restores health
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:37)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: wave spawns enemies
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:41)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: wall absorbs attacks before player
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:44)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: wall destruction removes full wall
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:46)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: breached enemies can attack player
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:48)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: death returns enemy to pool and counts kill
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:50)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: shooting crate opens reward selection
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:55)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: pause works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:56)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: resume works
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:57)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+SMOKE PASS: last cleared wave wins
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Check (bool,string) (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:25)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:58)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 25)
+
+BRIDGEHOLD_SMOKE_OK
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:23)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BridgeHold.Editor.BridgeHoldSmoke:Tick () (at Assets/BridgeHold/Editor/BridgeHoldSmoke.cs:60)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:412)
+
+(Filename: Assets/BridgeHold/Editor/BridgeHoldSmoke.cs Line: 60)
+
+MonoPathRemapper: Attempts to remap: 1105; Successful remaps: 0
+Thread 0x16de2b000 may have been prematurely finalized
+Serialized file version minimum: 23, current 23
+Thread 0x16d70f000 may have been prematurely finalized
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+Thread 0x16e3a3000 may have been prematurely finalized
+Thread 0x16e42f000 may have been prematurely finalized
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-gaosheng-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-gaosheng channel disconnected successfully.
+Shut down UDS service system complete
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 52
+VBCSCompilerPreWarmer: requested VBCSCompiler shutdown
